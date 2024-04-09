@@ -21,8 +21,8 @@
   =========================================================================== */
 :root{
   --main-color: #57BF99;
-  --main-color2: #3DA197;
-  --sec-color: #3E4C5C;
+  --main-color2: #3E4C5C; /*3DA197 */
+  --sec-color: #3E4C5C; /* 3E4C5C */
   --sec-color2: #3D3D3C;
 };
 
@@ -10901,20 +10901,20 @@ body.theme--dark {
 .white-scroll .scroll .hover--theme:hover,
 .black-scroll .scroll .hover--theme:hover {
   color: #fff!important;
-  border-color: #b3338a!important;
-  background-color: #b3338a!important;
+  border-color: var(--main-color2)!important;
+  background-color: var(--main-color2)!important;
 }
 
 .theme--dark .white-scroll .scroll .hover--theme:hover {
   color: #fff!important;
-  border-color: #b3338a!important;
-  background-color: #b3338a!important;
+  border-color: var(--main-color2)!important;
+  background-color: var(--main-color2)!important;
 }
 
 .theme--dark .white-scroll .hover--theme:hover {
   color: #fff!important;
-  border-color: #b3338a!important;
-  background-color: #b3338a!important;
+  border-color: var(--main-color2)!important;
+  background-color: var(--main-color2)!important;
 }
 
 .color--theme, 
